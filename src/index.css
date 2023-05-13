@@ -1,0 +1,24 @@
+/* css variables */
+:root {
+  --fragment-position : absolute;
+  --fragment-width: 550px;
+  --fragment-height: 868px;
+  --fragement-left: 65px;
+  --fragment-top: 53px;
+  --fragment-background-color: black
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--fragment-background-color);
+  top : var(--fragment-top);
+  left : var(--fragement-left);
+  height :var(--fragment-height);
+  width : var(--fragment-width);
+  position : var(--fragment-position);
+}
